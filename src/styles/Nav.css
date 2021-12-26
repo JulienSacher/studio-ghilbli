@@ -1,0 +1,21 @@
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 13.5rem !important;
+}
+
+.navbar {
+    border-bottom: 2px solid #fffdfd !important;
+}
+
+.navbar {
+    background-color: black;
+}
