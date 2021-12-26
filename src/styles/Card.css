@@ -39,7 +39,6 @@
 }
 
 .card {
-    position: relative !important;
     border-radius: 40px !important;
     overflow: hidden !important;
     background-color: #1a1a1ae1 !important;
@@ -100,7 +99,6 @@
 
 .c-card__description {
     display: flex;
-    flex-direction: column;
     padding: 20px 30px;
     width: 500px;
 }
