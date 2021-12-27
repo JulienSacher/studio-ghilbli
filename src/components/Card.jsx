@@ -47,7 +47,6 @@ function Card() {
             return (
               <div className="c-card">
                 <div className="card">
-                  <div className="card">
                     <div className="card__banner">
                       <div className="background">
                         <div className="c-background">
@@ -86,7 +85,6 @@ function Card() {
                         </div>
                       </div>
                     </div>
-                  </div>
                 </div>
               </div>
             );

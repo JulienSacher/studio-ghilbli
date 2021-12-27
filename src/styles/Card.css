@@ -1,121 +1,142 @@
 .search-title {
-    font-weight: 600;
-    font-size: 40px;
-    text-transform: uppercase;
-    color: white;
+  font-weight: 600;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: white;
 }
 
 .search-input {
-    width: 40%;
-    border-radius: 40px 0 0 40px;
-    padding: 1%;
-    border: 2px solid #f1f1f1;
-    font-size: 14px;
-    outline: none;
-    font-style: italic;
-    font-weight: 600;
-    padding-left: 3%;
+  width: 40%;
+  border-radius: 40px 0 0 40px;
+  padding: 1%;
+  border: 2px solid #f1f1f1;
+  font-size: 14px;
+  outline: none;
+  font-style: italic;
+  font-weight: 600;
+  padding-left: 3%;
 }
 
 .search-btn {
-    background: black;
-    border-radius: 0 40px 40px 0;
-    color: white;
-    width: 6%;
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-    padding: 8px;
-    border: solid 2px white;
+  background: black;
+  border-radius: 0 40px 40px 0;
+  color: white;
+  width: 6%;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 8px;
+  border: solid 2px white;
 }
 
 .container-search {
-    background: black;
+  background: black;
 }
 
 .c-card {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  padding: 20px;
 }
 
 .card {
-    border-radius: 40px !important;
-    overflow: hidden !important;
-    background-color: #1a1a1ae1 !important;
+  border-radius: 40px !important;
+  border: 2px solid white !important;
+  overflow: hidden !important;
+  background-color: #1a1a1ae1 !important;
 }
 
 .card__banner {
-    position: relative;
+  position: relative;
 }
 
 .card__banner img {
-    display: block;
+  display: block;
 }
 
 .background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.795);
-    display: flex;
-    align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.795);
+  display: flex;
+  align-items: center;
 }
 
 .c-background {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 35px;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+  width: 100%;
 }
 
 .card__banner__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0px 0px 20px 0px;
-    text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 0px 20px 0px;
+  text-align: right;
 }
 
 .__content__title {
-    font-size: 1.8rem;
-    font-weight: 700;
-    color: white;
-    margin-bottom: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 0;
 }
 
 .__content__director {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: white;
-    margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0;
 }
 
 .__content__release {
-    font-size: 1.2rem;
-    font-weight: 500;
-    color: white;
-    margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 0;
 }
 
 .c-card__description {
-    display: flex;
-    padding: 20px 30px;
-    width: 500px;
+  display: flex;
+  padding: 20px 30px;
+  width: 500px;
 }
 
 .card__description__text h1 {
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: white;
-    margin: 0;
-    padding-bottom: 5px;
-    border-bottom: 1px solid white;
+  font-size: 1.2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
 }
 
 .card__description__text p {
-    font-size: 0.9rem;
-    font-style: italic;
-    text-align: justify;
-    color: white;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: justify;
+  color: white;
+}
+
+h1 {
+  color: darkgrey;
+  white-space: nowrap;
+  transform: translate(-0%, -0%);
+  font-size: 3em;
+  letter-spacing: 0.1em;
+  transition: 0.3s;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
+    1px 5px 0 grey, 1px 4px 0 grey, 1px 1px 0 grey, 1px 4px 0 grey,
+    5px 13px 15px black;
+}
+
+h1:hover {
+  transition: 0.3s;
+  transform: scale(1.1) translate(-1%, -1%);
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
+    1px -4px 0 grey, 1px -5px 0 grey, 1px -4px 0 grey, 1px -4px 0 grey,
+    1px -4px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
 }
