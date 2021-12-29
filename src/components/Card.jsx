@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "../styles/Card.css";
-import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
+
 
 function Card() {
   const [datas, setDatas] = useState([]);
@@ -34,7 +35,11 @@ function Card() {
             onChange={handleSearch}
           />
           <button className="search-btn">
-            <AiOutlineSearch className="me-1" />
+            {search.length === 0 ? (
+              <AiOutlineSearch className="me-1" />
+            ) : (
+              <AiOutlineClose className="me-1" id="clear__btn" />
+            )}
           </button>
         </div>
       </div>
