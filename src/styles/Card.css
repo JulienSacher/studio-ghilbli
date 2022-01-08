@@ -104,21 +104,11 @@
   width: 500px;
 }
 
-.card__description__text h1 {
-  font-size: 1.2rem;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: white;
-  margin: 0;
-  padding-bottom: 5px;
-  border-bottom: 1px solid white;
-}
-
-.card__description__text p {
+.card__description__text {
   font-size: 0.9rem;
   font-style: italic;
   text-align: justify;
-  color: white;
+  color: white !important;
 }
 
 h1 {

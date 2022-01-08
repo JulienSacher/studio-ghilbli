@@ -3,7 +3,6 @@ import axios from "axios";
 import "../styles/Card.css";
 import { AiOutlineSearch, AiOutlineClose } from "react-icons/ai";
 
-
 function Card() {
   const [datas, setDatas] = useState([]);
   const [search, setSearch] = useState("");
@@ -22,9 +21,7 @@ function Card() {
   return (
     <div className="container-search">
       <div className="pt-5 container">
-        <h1 className="search-title text-center">
-          Studio Ghibli Anime Movies
-        </h1>
+        <h1 className="search-title text-center">Studio Ghibli Anime Movies</h1>
         <div className="d-flex justify-content-center mt-5">
           <input
             type="text"
@@ -52,44 +49,44 @@ function Card() {
             return (
               <div className="c-card">
                 <div className="card">
-                    <div className="card__banner">
-                      <div className="background">
-                        <div className="c-background">
-                          <div className="card__poster">
-                            <img
-                              src={val.image}
-                              alt=""
-                              width={150}
-                              height={200}
-                            />
-                          </div>
-                          <div className="card__banner__content">
-                            <div className="__content">
-                              <h3 className="__content__title">{val.title}</h3>
-                              <p className="__content__director">
-                                {val.director}
-                              </p>
-                              <p className="__content__release">
-                                {val.release_date}
-                              </p>
-                            </div>
+                  <div className="card__banner">
+                    <div className="background">
+                      <div className="c-background">
+                        <div className="card__poster">
+                          <img
+                            src={val.image}
+                            alt="movie cover"
+                            width={150}
+                            height={200}
+                          />
+                        </div>
+                        <div className="card__banner__content">
+                          <div className="__content">
+                            <h3 className="__content__title">{val.title}</h3>
+                            <p className="__content__director">
+                              {val.director}
+                            </p>
+                            <p className="__content__release">
+                              {val.release_date}
+                            </p>
                           </div>
                         </div>
                       </div>
-                      <img
-                        src={val.movie_banner}
-                        alt=""
-                        width={500}
-                        height={300}
-                      />
                     </div>
-                    <div className="card__description">
-                      <div className="c-card__description">
-                        <div className="card__description__text">
-                          <p>{val.description}</p>
-                        </div>
+                    <img
+                      src={val.movie_banner}
+                      alt="banner movie"
+                      width={500}
+                      height={300}
+                    />
+                  </div>
+                  <div className="card__description">
+                    <div className="c-card__description">
+                      <div className="card__description__text">
+                        <p>{val.description}</p>
                       </div>
                     </div>
+                  </div>
                 </div>
               </div>
             );
