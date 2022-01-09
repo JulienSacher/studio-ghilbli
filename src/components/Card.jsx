@@ -77,6 +77,7 @@ function Card() {
                       alt="banner movie"
                       width={500}
                       height={300}
+                      className="card__bannerImg"
                     />
                   </div>
                   <div className="card__description">

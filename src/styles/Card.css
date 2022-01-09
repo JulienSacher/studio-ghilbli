@@ -38,10 +38,15 @@
   height: 200px !important;
 }
 
+.card__bannerImg {
+  width: 100% !important;
+  height: 100% !important;
+}
+
 @media (max-width: 550px) {
   .card__posterMovie {
-    width: 100px !important;
-    height: 150px !important;
+    width: 80px !important;
+    height: 120px !important;
   }
 }
 
@@ -153,6 +158,9 @@
   }
   .__content__release {
     font-size: 0.8rem !important;
+  }
+  .card__description__text {
+    font-size: 0.7rem !important  ;
   }
 }
 
