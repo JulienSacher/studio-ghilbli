@@ -39,7 +39,6 @@
 }
 
 .card__bannerImg {
-  width: 100% !important;
   height: 100% !important;
 }
 
@@ -48,6 +47,10 @@
     width: 80px !important;
     height: 120px !important;
   }
+  .card__bannerImg {
+    width: 100% !important;
+  }
+  
 }
 
 .search-btn {
