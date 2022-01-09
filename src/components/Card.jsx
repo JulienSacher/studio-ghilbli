@@ -40,7 +40,7 @@ function Card() {
           </button>
         </div>
       </div>
-      <div className="container pt-5 d-flex flex-wrap justify-content-between">
+      <div className="container pt-5 d-flex flex-wrap ">
         {datas
           .filter((val) => {
             return val.title.toLowerCase().includes(search.toLowerCase());

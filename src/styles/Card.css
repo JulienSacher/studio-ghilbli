@@ -1,12 +1,26 @@
+.container {
+  justify-content: space-between !important;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    justify-content: center !important;
+  }
+}
+
 .search-title {
   font-weight: 600;
   font-size: 40px;
   text-transform: uppercase;
   color: white;
 }
-
+@media (max-width: 768px) {
+  .search-title {
+    font-size: 20px !important;
+  }
+}
 .search-input {
-  width: 40%;
+  width: 50%;
   border-radius: 40px 0 0 40px;
   padding: 1%;
   border: 2px solid #f1f1f1;
@@ -21,12 +35,18 @@
   background: black;
   border-radius: 0 40px 40px 0;
   color: white;
-  width: 6%;
+  width: 12%;
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
   padding: 8px;
   border: solid 2px white;
+}
+
+@media (min-width: 992px) {
+  .search-btn {
+    width: 7%;
+  }
 }
 
 .container-search {
@@ -104,6 +124,24 @@
   width: 500px;
 }
 
+@media (max-width: 550px) {
+  .c-card {
+    width: 90%;
+  }
+  .c-card__description {
+    width: 100% !important;
+  }
+  .__content__title {
+    font-size: 1rem !important;
+  }
+  .__content__director {
+    font-size: 0.8rem !important;
+  }
+  .__content__release {
+    font-size: 0.8rem !important;
+  }
+}
+
 .card__description__text {
   font-size: 0.9rem;
   font-style: italic;
@@ -118,15 +156,13 @@ h1 {
   font-size: 3em;
   letter-spacing: 0.1em;
   transition: 0.3s;
-  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey,
-    1px 5px 0 grey, 1px 4px 0 grey, 1px 1px 0 grey, 1px 4px 0 grey,
-    5px 13px 15px black;
+  text-shadow: 1px 1px 0 grey, 1px 2px 0 grey, 1px 3px 0 grey, 1px 4px 0 grey, 1px 5px 0 grey, 1px 4px 0 grey,
+    1px 1px 0 grey, 1px 4px 0 grey, 5px 13px 15px black;
 }
 
 h1:hover {
   transition: 0.3s;
   transform: scale(1.1) translate(-1%, -1%);
-  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey,
-    1px -4px 0 grey, 1px -5px 0 grey, 1px -4px 0 grey, 1px -4px 0 grey,
-    1px -4px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
+  text-shadow: 1px -1px 0 grey, 1px -2px 0 grey, 1px -3px 0 grey, 1px -4px 0 grey, 1px -5px 0 grey, 1px -4px 0 grey,
+    1px -4px 0 grey, 1px -4px 0 grey, 5px -13px 15px black, 5px -13px 25px #808080;
 }
