@@ -56,8 +56,7 @@ function Card() {
                           <img
                             src={val.image}
                             alt="movie cover"
-                            width={150}
-                            height={200}
+                            className="card__posterMovie"
                           />
                         </div>
                         <div className="card__banner__content">

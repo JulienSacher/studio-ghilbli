@@ -14,11 +14,13 @@
   text-transform: uppercase;
   color: white;
 }
+
 @media (max-width: 768px) {
   .search-title {
     font-size: 20px !important;
   }
 }
+
 .search-input {
   width: 50%;
   border-radius: 40px 0 0 40px;
@@ -29,6 +31,18 @@
   font-style: italic;
   font-weight: 600;
   padding-left: 3%;
+}
+
+.card__posterMovie {
+  width: 150px !important;
+  height: 200px !important;
+}
+
+@media (max-width: 550px) {
+  .card__posterMovie {
+    width: 100px !important;
+    height: 150px !important;
+  }
 }
 
 .search-btn {
